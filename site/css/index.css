@@ -151,7 +151,7 @@ body{
     }
     @media screen and (min-width: 400px){
         body{background-color: purple; width:100%;font-size:larger}
-        ul{display:none;float:none;width:100%;text-align:left}
+        ul{float:none;width:100%;text-align:left}
     }
     @media screen and (min-width: 768px){
         body{background-color: red; width:100%;font-size:larger}
@@ -161,7 +161,7 @@ body{
     @media screen and (min-width: 1000px){
         body{background-color: green; width:100%;font-size:larger}
         ul{width:100%;height:auto;position:relative}
-        li a{float:left;padding:15px}
+        li a{float: none;padding:15px}
     }
   
   
