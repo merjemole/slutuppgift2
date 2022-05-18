@@ -111,20 +111,7 @@ body{
     .unordered2 li{
         margin:5px
     }
-     @media screen and (max-width: 1000px){
-         body{width:100%;font-size:larger}
-         ul{width:100%;height:auto;position:relative}
-         li a{float:left;padding:15px}
-        }
-    @media screen and (max-width: 768px){
-        body{width:100%;font-size:larger}
-        ul{float:none;width:100%;text-align:left}
-        li a{text-align:center;float:none}
-    }
-    @media screen and (max-width: 400px){
-        body{width:100%;font-size:larger}
-        ul{display:none;float:none;width:100%;text-align:left}
-    }
+ 
     .mySlides{
         display:block;
         margin-left:auto;
@@ -162,3 +149,19 @@ body{
     .display-right{
         right:0%
     }
+    @media screen and (min-width: 400px){
+        body{width:100%;font-size:larger}
+        ul{display:none;float:none;width:100%;text-align:left}
+    }
+    @media screen and (min-width: 768px){
+        body{width:100%;font-size:larger}
+        ul{float:none;width:100%;text-align:left}
+        li a{text-align:center;float:none}
+    }
+    @media screen and (min-width: 1000px){
+        body{width:100%;font-size:larger}
+        ul{width:100%;height:auto;position:relative}
+        li a{float:left;padding:15px}
+    }
+  
+  
