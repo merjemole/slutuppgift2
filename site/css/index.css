@@ -151,8 +151,9 @@ body{
     }
     @media screen and (min-width: 400px){
         body{background-color: purple; width:100%;font-size:large}
-        ul{float:right; width:fit-content;text-align:left; position: relative;}
-    }
+        ul {display: block; position: absolute;  right: 0; top: 0;}
+}
+  
     @media screen and (min-width: 768px){
         body{background-color: red; width:100%;font-size:larger}
         ul{float:none;width:100%;text-align:left}
@@ -165,3 +166,7 @@ body{
     }
   
   
+
+
+
+
