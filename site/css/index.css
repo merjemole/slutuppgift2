@@ -150,11 +150,11 @@ body{
         right:0%
     }
     @media screen and (min-width: 400px){
-        body{background-color: purple; width:100%;font-size:small}
-        ul{float:none;width:100%;text-align:left}
+        body{background-color: purple; width:100%;font-size:large}
+        ul{float:right; width:fit-content;text-align:left; position: relative;}
     }
     @media screen and (min-width: 768px){
-        body{background-color: red; width:100%;font-size:medium}
+        body{background-color: red; width:100%;font-size:larger}
         ul{float:none;width:100%;text-align:left}
         li a{text-align:center;float:none}
     }
