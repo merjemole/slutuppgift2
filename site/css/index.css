@@ -151,7 +151,7 @@ body{
     }
     @media screen and (min-width: 400px){
         body{background-color: purple; width:100%;font-size:large}
-        ul{width:100%;height:auto;position:relative}
+        ul (:first-child) {display: none;}
         li a{ float: right; display: block; }
 }
   
