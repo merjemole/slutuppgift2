@@ -3,6 +3,15 @@ showDiv(imageCounter);
 function changeImage(m) {
 showDiv(imageCounter = imageCounter + m);
 } 
+
+function myFunction() {
+  var x = document.getElementById("ul");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 function showDiv(n) {
     var i;
     var imageArray=document.getElementsByClassName("mySlides");
